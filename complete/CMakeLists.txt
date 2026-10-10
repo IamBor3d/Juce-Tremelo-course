@@ -69,7 +69,7 @@ juce_add_plugin(
   VERSION
     0.0.0 # 0 forces AU hosts to always refresh
   COMPANY_NAME
-    "WolfSound"
+    "Aaman"
   PLUGIN_MANUFACTURER_CODE
     Wfsd
   PLUGIN_CODE
@@ -87,7 +87,7 @@ juce_add_plugin(
   VST3_AUTO_MANIFEST
     FALSE
   COPY_PLUGIN_AFTER_BUILD
-    FALSE
+    TRUE
 )
 
 # Configures the JUCE sources included in the plugin target.
